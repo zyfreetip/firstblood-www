@@ -1,0 +1,30 @@
+/* Typography */
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #8a8e91;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway' ,'Roboto', sans-serif, sans-serif;
+    position: relative;
+    margin: 10px 0;
+}
+h1 {
+    font-size: 140px;
+}
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 30px;
+}
+h4 {
+    font-size: 24px;
+}
+h5 {
+    font-size: 18px;
+}
+h6 {
+    font-size: 16px;
+}
