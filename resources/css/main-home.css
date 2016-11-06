@@ -5,6 +5,23 @@
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto:300,400');
 
+/*Bootstrap inherit custimized*/
+
+.container {
+  /*padding-left: 30px !important;*/
+  /*padding-right: 30px !important;*/
+}
+
+section {
+    position: relative;
+}
+.section {
+    padding: 40px 0;
+    background: #000000;
+}
+.section-padded {
+    padding: 100px 0 40px;
+}
 
 /*Body Section ( Body )*/
 
@@ -13,9 +30,10 @@ body {
   font-size: 14px;
   overflow-x: hidden;
   color: #2a3237;
-  background: #000;
+  background: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /*padding: 0px 25px 0px 25px;*/
 }
 
 /*Header Section ( Header )*/
@@ -26,8 +44,8 @@ header {
     display: block;
     color: white;
     background: linear-gradient(
-      rgba(0, 0, 0, 0.20),
-      rgba(0, 0, 0, 0.80)
+      rgba(0, 0, 0, 0.30),
+      rgba(0, 0, 0, 0.85)
     ),
     url('../img/main/header.jpg');
     background-size: cover;
@@ -184,4 +202,37 @@ nav.navbar .navbar-nav {
 .language-selector:hover {
     cursor: pointer;
     cursor: hand;
+}
+
+/*Alpha-signup Section ( Alpha-signup )*/
+#alpha-signup {
+  /*height:300px;*/
+}
+
+/*Intro Section ( Intro )*/
+#intro {
+  padding: 50px 60px 0px 60px !important;
+}
+
+#intro img {
+  display: inline-block;
+  width:30%;
+}
+
+
+#intro .intro-title {
+  text-transform: uppercase;
+  font-size: 1.8em;
+  font-weight: 700;
+  margin-top:15px;
+  margin-bottom:35px;
+}
+
+#intro .icon-text{
+  /*width:30%;*/
+  margin-top:5px;
+  display:inline-block;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: 700;
 }
