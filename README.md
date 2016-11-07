@@ -8,6 +8,19 @@ Repository responsible for FirstBlood.io new home page, newly designed UI integr
 `Node.js & npm`<br>
 `http-server package`
 
+##Installing Node.js
+
+If you're using OS X or Windows, the best way to install Node.js is to use one of the installers from the Node.js download page. If you're using Linux, you can use the [installer]("https://nodejs.org/en/download/"), or you can check NodeSource's binary distributions to see whether or not there's a more recent version that works with your system.
+
+Test: Run `node -v`. <br>
+The version should be higher than `v0.10.32`.
+
+##Updating npm
+
+Node comes with npm installed so you should have a version of npm. <br>However, npm gets updated more frequently than Node does, so you'll want to make sure it's the latest version.
+
+`npm install npm@latest -g`
+
 # Test Locally
 `$ git clone https://github.com/Firstbloodio/firstblood-www.git`<br><br>
 First, instal this light-weight http server node<br>
