@@ -17,7 +17,7 @@ The version should be higher than `v0.10.32`.
 
 ##Updating npm
 
-Node comes with npm installed so you should have a version of npm. <br>However, npm gets updated more frequently than Node does, so you'll want to make sure it's the latest version.
+Node comes with npm installed so you should have a version of npm. <br>However, npm gets updated more frequently than Node does, so you'll want to make sure it's the latest version.<br><br>
 
 `npm install npm@latest -g`
 
@@ -25,7 +25,7 @@ Node comes with npm installed so you should have a version of npm. <br>However, 
 `$ git clone https://github.com/Firstbloodio/firstblood-www.git`<br><br>
 First, instal this light-weight http server node<br>
 `$ sudo npm install http-server` <br><br>
-OR install globally, if required*
+OR install globally, if required*<br>
 `$ sudo npm install -g http-server` <br><br>
 Access the directory that you cloned this git in<br>
 `$ cd [YOURFOLDERNAME]` <br><br>
