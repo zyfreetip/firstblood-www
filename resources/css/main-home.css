@@ -284,6 +284,7 @@ nav.navbar .navbar-nav {
   url('../img/main/header.jpg');
   height:135px;
   box-shadow: 2px 2px 2px black;
+  /*vertical-align: middle;*/
 }
 
 #media img {
@@ -473,3 +474,91 @@ footer .title {
     text-align: left;
     font-size: 1.1em;
 }
+
+footer .mailto{
+  color:#C72728;
+  font-weight:700
+}
+
+footer .mailto:hover {
+  color:#ff9900
+}
+
+
+
+/*Mobile Optimization Section*/
+@media(max-width:991px) {
+
+
+}
+@media(max-width: 768px) {
+
+  header {
+    height:650px !important;
+    max-height:700px;
+  }
+
+  .navbar-brand img {
+    width:100px !important;
+    max-width:100px;
+  }
+
+  #bs-example-navbar-collapse-1 {
+    background: black;
+    border-bottom: 3px solid #ff9900;
+    margin-top:100px;
+  }
+
+  .video-btn,.alpha-btn {
+    width:300px !important;
+    font-size: 1.5em !important;
+    margin:2px;
+  }
+
+  .header-demo {
+    /*display: block;*/
+    position:relative;
+    text-align: center;
+  }
+  .header-demo img {
+    width:100%;
+    /*margin-top:100px;*/
+    position:absolute;
+    bottom:0px;
+    display: block;
+  }
+
+  .intro-slogan {
+    font-size: 2.0em;
+  }
+
+  #media {
+    height:auto;
+    max-height: 500px;
+    padding: 30px 10px 5px 10px !important;
+  }
+
+  #media img {
+    padding:9px;
+  }
+}
+
+
+@media(max-width: 400px) {
+
+  .navbar-brand img {
+    width:80px !important;
+    max-width:100px;
+  }
+
+  #bs-example-navbar-collapse-1 {
+    background: black;
+    border-bottom: 3px solid #ff9900;
+    margin-top:100px;
+  }
+
+  .caption {
+    font-size: 25px
+  }
+
+} /*} smaller screens*/
