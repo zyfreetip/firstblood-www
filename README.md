@@ -21,7 +21,7 @@ Node comes with npm installed so you should have a version of npm. <br>However, 
 
 `npm install npm@latest -g`
 
-# Test Locally
+# Install & Test Locally
 `$ git clone https://github.com/Firstbloodio/firstblood-www.git`<br><br>
 First, instal this light-weight http server node<br>
 `$ sudo npm install http-server` <br><br>
@@ -31,5 +31,6 @@ Access the directory that you cloned this git in<br>
 `$ cd [YOURFOLDERNAME]` <br><br>
 Serve the website<br>
 `$ http-server` <br><br>
-type `localhost:8080` into your browser
+Load from local browser<br>
+type `localhost:8080` or `http://127.0.0.1:8080` into your browser
 
