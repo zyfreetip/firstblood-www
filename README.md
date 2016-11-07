@@ -17,8 +17,7 @@ The version should be higher than `v0.10.32`.
 
 ##Updating npm
 
-Node comes with npm installed so you should have a version of npm. <br>However, npm gets updated more frequently than Node does, so you'll want to make sure it's the latest version.<br><br>
-
+Node comes with npm installed so you should have a version of npm. <br>However, npm gets updated more frequently than Node does, so you'll want to make sure it's the latest version.<br>
 `npm install npm@latest -g`
 
 # Install & Test Locally
