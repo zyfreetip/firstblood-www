@@ -487,10 +487,87 @@ footer .mailto:hover {
 
 
 /*Mobile Optimization Section*/
+
+/*@media ipad, galaxy optimization*/
 @media(max-width:991px) {
 
+  header {
+    height:700px !important;
+    max-height:800px;
+    /*padding: 0 0 0 0 !important;*/
+  }
+
+  .header-demo {
+    /*display: block;*/
+    position:relative;
+    text-align: center;
+  }
+
+  .header-demo img {
+    width:100%;
+    margin-top:10px;
+    position:absolute;
+    bottom:0px;
+    display: block;
+  }
+
+  .navbar-brand img {
+    margin-top:25px;
+    width: 100px;
+  }
+
+  .video-btn,.alpha-btn {
+    width:300px !important;
+    font-size: 1.5em !important;
+    margin:2px;
+  }
+
+  p {
+    font-size: 0.6em;
+  }
+  .caption {
+    font-size: 40px !important;
+  }
+
+  #info,#intro,#mission,#news,footer {
+    padding: 30px 10px 5px 10px !important;
+  }
+
+  #media {
+    height:auto;
+    max-height: 500px;
+    padding: 30px 10px 5px 10px !important;
+    /*display: table-cell;*/
+  }
+
+  #media img {
+    padding:9px;
+  }
+
+  /*footer img {
+    width:20%;
+  }*/
+
+  #info .grey-button {
+    margin-bottom:15px !important;
+  }
+
+  #mission img {
+    width: 80%;
+  }
+
+  #mission p {
+    font-size: 0.7em !important;
+  }
+
+  footer img{
+    width:45% !important;
+  }
+}
 
 }
+
+/*@media Mobile, iPhone, Galaxy Optimization*/
 @media(max-width: 768px) {
 
   header {
@@ -505,6 +582,7 @@ footer .mailto:hover {
 
   #bs-example-navbar-collapse-1 {
     background: black;
+    border-top: 3px solid #ff9900;
     border-bottom: 3px solid #ff9900;
     margin-top:100px;
   }
@@ -522,7 +600,7 @@ footer .mailto:hover {
   }
   .header-demo img {
     width:100%;
-    /*margin-top:100px;*/
+    margin-top:10px;
     position:absolute;
     bottom:0px;
     display: block;
@@ -530,6 +608,10 @@ footer .mailto:hover {
 
   .intro-slogan {
     font-size: 2.0em;
+  }
+
+  #info .grey-button {
+    margin-bottom:15px !important;
   }
 
   #media {
@@ -541,10 +623,26 @@ footer .mailto:hover {
   #media img {
     padding:9px;
   }
+
+  #mission p {
+    font-size: 0.7em !important;
+  }
+
+  footer img{
+    width:35% !important;
+  }
+
 }
 
 
+
+/*@media smaller device, old iphone 4 Optimization*/
 @media(max-width: 400px) {
+
+  header {
+    height:650px !important;
+    max-height:700px;
+  }
 
   .navbar-brand img {
     width:80px !important;
@@ -553,12 +651,13 @@ footer .mailto:hover {
 
   #bs-example-navbar-collapse-1 {
     background: black;
+    border-top: 3px solid #ff9900;
     border-bottom: 3px solid #ff9900;
     margin-top:100px;
   }
 
   .caption {
-    font-size: 25px
+    font-size: 39px !important;
   }
 
 } /*} smaller screens*/
