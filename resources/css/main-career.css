@@ -374,6 +374,26 @@ nav.navbar .navbar-nav {
   padding: 5px ;
 }
 
+/*Media Section ( Media )*/
+
+#media-content .media-content-left{
+  width:100% !important;
+  padding-top:5px;
+  padding-right:10% !important;
+  margin-bottom: 10%;
+}
+
+#media-content .media-content-right{
+  width:100% !important;
+  padding-top:5px;
+  padding-left:10% !important;
+  margin-bottom: 10%;
+}
+
+#media-content .mailto {
+  font-weight: bold;
+}
+
 
 /* Footer Section ( Footer )*/
 
