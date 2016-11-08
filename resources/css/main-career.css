@@ -332,6 +332,49 @@ nav.navbar .navbar-nav {
   width:75px;
 }
 
+
+/* Press Section ( Press )*/
+
+#press-content .press-content-left{
+  width:100% !important;
+  padding-top:5px;
+  padding-right:10% !important;
+  margin-bottom: 10%;
+}
+
+#press-content .press-content-right{
+  width:100% !important;
+  padding-top:5px;
+  padding-left:10% !important;
+  margin-bottom: 10%;
+}
+
+#press-content .press-title {
+  font-size: 1.3em;
+  color:black;
+  font-weight: bold;
+  border-left: 5px solid #ff9900;
+  padding-left:2px;
+}
+
+#press-content .press-date {
+  font-size: 1.0em;
+  color:#666C6F;
+}
+
+#press-content .press-title-sub {
+  font-size: 0.9em;
+  color:black;
+}
+
+#press-content img {
+  width: 10%;
+  max-width:350px;
+  background: #000;
+  padding: 5px ;
+}
+
+
 /* Footer Section ( Footer )*/
 
 footer {
