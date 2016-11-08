@@ -1,4 +1,4 @@
-<img src='/resources/img/main/logo_shield_b.jpg' width = '25%'>
+<img src='/resources/img/main/logo_shield_b.jpg' width = '22.5%'>
 
 # FirstBlood.io Home Page
 Repository responsible for FirstBlood.io new home page, newly designed UI integrates with demo screenshots, <br>blog &amp; forum articles and alpha signup collector. 
@@ -8,7 +8,7 @@ Repository responsible for FirstBlood.io new home page, newly designed UI integr
 `Node.js & npm`<br>
 `http-server package`
 
-##Installing Node.js
+##Installing Node.js (if you don't have it)
 
 If you're using OS X or Windows, the best way to install Node.js is to use one of the installers from the Node.js download page. If you're using Linux, you can use the <a href ="https://nodejs.org/en/download/">installer</a>, or you can check <a href = "https://github.com/nodesource/distributions">NodeSource's binary distributions</a> to see whether or not there's a more recent version that works with your system.
 
