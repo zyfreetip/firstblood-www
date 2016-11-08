@@ -663,3 +663,7 @@ footer .mailto:hover {
   }
 
 } /*} smaller screens*/
+
+.languages {
+  text-align: right;
+}

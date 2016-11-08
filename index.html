@@ -11,12 +11,16 @@
     <meta name="keywords" content="Tournaments, FirstBlood, First Blood, cryptocurrency, ethereum, ether, rewards, competition, eSports, League of Legends, Play eSports, Call of Duty, FIFA, Hearthstone" />
 
     <!-- Bootstrap css -->
-    <link href="resources/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="/resources/css/bootstrap/bootstrap.min.css" rel="stylesheet">
     <!-- FirstBlood main.home css -->
-    <link href="resources/css/main-home.css" rel="stylesheet">
+    <link href="/resources/css/main-home.css" rel="stylesheet">
 </head>
 
 <body>
+  <div class="languages">
+    <a href="javascript:;" onclick="changeLanguage('en')"><img src="/resources/img/main/us.svg" class="language-flag" /></a>
+    <a href="javascript:;" onclick="changeLanguage('cn')"><img src="/resources/img/main/cn.svg" class="language-flag" /></a>
+  </div>
 
   <nav class="navbar">
     <div class="container">
@@ -33,11 +37,11 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-mid main-nav">
-          <li><a href="#intro">Home</a></li>
-          <li><a href="#info">Read More</a></li>
-          <li><a href='https://community.firstblood.io'>Forum</a></li>
-          <li><a href = "https://goo.gl/xxm5Bm"><i class="fa fa-file-text-o" aria-hidden="true"></i> White Paper</a></li>
-          <li><a href = "http://slack.firstblood.io/"><i class="fa fa-slack" aria-hidden="true"></i> Join Slack</a></li>
+          <li><a href="#intro"><span class="trn">HOME</span></a></li>
+          <li><a href="#info"><span class="trn">READ MORE</span></a></li>
+          <li><a href='https://community.firstblood.io'><span class="trn">FORUM</span></a></li>
+          <li><a href = "https://goo.gl/xxm5Bm"><i class="fa fa-file-text-o" aria-hidden="true"></i> <span class="trn">WHITE_PAPER</span></a></li>
+          <li><a href = "http://slack.firstblood.io/"><i class="fa fa-slack" aria-hidden="true"></i> <span class="trn">SLACK</span></a></li>
         </ul>
         <!-- <div class = "language-wrap">
           <li><div class="language-selector first" ng-click="changeLanguage('en')"><img src="/resources/img/main/us.svg" class="language-flag" /> EN</div></li>
@@ -48,41 +52,13 @@
     </div>
     <!-- /.container-fluid -->
   </nav>
-  <nav class="navbar navbar-fixed-top">
-    <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#"><img src="resources/img/main/logo_shield.png" data-active-url="resources/img/main/logo-active.png" alt="" width = "10%"></a>
-      </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-mid main-nav">
-          <li><a href="#intro">Home</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href='https://community.firstblood.io'>Forum</a></li>
-          <li><a href = "https://goo.gl/xxm5Bm"><i class="fa fa-file-text-o" aria-hidden="true"></i> White Paper</a></li>
-          <li><a href = "http://slack.firstblood.io/"><i class="fa fa-slack" aria-hidden="true"></i> Slack</a></li>
-        </ul>
-        <!-- <div class = "language-wrap">
-          <li><div class="language-selector first" ng-click="changeLanguage('en')"><img src="/resources/img/main/us.svg" class="language-flag" /> EN</div></li>
-          <li><div class="language-selector" ng-click="changeLanguage('cn')"><img src="/resources/img/main/cn.svg" class="language-flag" /> 中文</div></li>
-        </div> -->
-      </div>
-    <!-- /.container-fluid -->
-  </nav>
   <header id = "home">
     <div class="container">
       <div class="table">
         <div class="header-text">
           <div class="row">
             <div class="col-md-12 text-center">
-              <h1 class = "caption">Play eSports, <orange>Win rewards</orange></h1>
+              <h1 class = "caption"><span class="trn">PLAY_WIN</span></h1>
             </div>
             <div class="col-md-12 text-center" style = "margin-top:5px;">
               <a class="btn btn-warning video-btn"><span class="glyphicon glyphicon-play" aria-hidden="true"></span> What is FirstBlood?</a>
@@ -307,9 +283,13 @@
 
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="/resources/js/jquery-1.11.1.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="resources/js/bootstrap.min.js"></script>
+  <script src="/resources/js/bootstrap.min.js"></script>
+  <!-- jQuery translate -->
+  <script src="/resources/js/jquery.translate.js"></script>
+  <!-- Translations -->
+  <script src="/resources/js/app/translations.js"></script>
 </body>
 
 </html>
