@@ -45,7 +45,11 @@ var dict = {
    },
    "PLAY_WIN":{
       "en":"Play eSports, <orange>Win rewards</orange>",
-      "cn":"打电竞, 赢赏金"
+      "cn":"打电竞,  <orange>赢赏金</orange>"
+   },
+   "READ_MORE":{
+      "en":"Read More",
+      "cn":"读更"
    },
    "WHAT_FIRSTBLOOD":{
       "en":"What is FirstBlood?",
