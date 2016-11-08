@@ -355,7 +355,7 @@ footer ul li a {
 }
 
 footer a:hover {
-  color: #ff9900;
+  color: #ff9900 !important;
   text-decoration: none;
 }
 
