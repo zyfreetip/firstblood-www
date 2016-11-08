@@ -23,6 +23,10 @@ section {
     padding: 100px 0 40px;
 }
 
+a:hover {
+  text-decoration: none !important;
+}
+
 
 /*Font Helper Class ( Helper )*/
 
@@ -235,13 +239,22 @@ nav.navbar .navbar-nav {
   color:#000;
 }
 
+#selector .active{
+  border-bottom:2px solid #000;
+  cursor: pointer;
+  color:#000;
+}
+
+#selector a{
+  color:#666C6F;
+}
 
 /*Career-Content Section ( Career-Content )*/
 
 #career-content .career-content-left{
   width:100% !important;
   padding-top:5px;
-  padding-right:10%;
+  padding-right:10% !important;
   /*border-right: 1px dashed #CECECE;*/
   /*border-radius: 50px;*/
 }
@@ -249,7 +262,7 @@ nav.navbar .navbar-nav {
 #career-content .career-content-right{
   width:100% !important;
   padding-top:5px;
-  padding-left:10%;
+  padding-left:10% !important;
 }
 
 #career-content .job-title {
@@ -266,6 +279,57 @@ nav.navbar .navbar-nav {
   /*border-bottom:none !important;*/
   cursor: pointer;
   color:#ff9900;
+}
+
+
+/*About Content ( About )*/
+
+#about-content .about-content-left{
+  width:100% !important;
+  padding-top:5px;
+  padding-right:10% !important;
+  margin-bottom: 10%;
+}
+
+#about-content .about-content-right{
+  width:100% !important;
+  padding-top:5px;
+  padding-left:10% !important;
+  margin-bottom: 10%;
+}
+
+#about-content .funding-title {
+  font-size: 1.7em;
+  color:#ff9900;
+  font-weight: bold;
+}
+
+#about-content .funding-title-sub {
+  font-size: 0.9em;
+  color:black
+}
+
+#about-content img {
+  width: 90%;
+  max-width:350px;
+}
+
+
+#about-content .team-photo {
+  height:75px;
+  width:75px;
+  max-width:75px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  box-shadow: 1px 2px 3px #666C6F;
+  margin: 4px;
+}
+
+#about-content .team-photo:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  height:75px;
+  width:75px;
 }
 
 /* Footer Section ( Footer )*/
@@ -287,7 +351,7 @@ footer ul {
 
 footer ul li a {
   font-size: 1em;
-  color: #666C6F;
+  color: #666C6F !important;
 }
 
 footer a:hover {
