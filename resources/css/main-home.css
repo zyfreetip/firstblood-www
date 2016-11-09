@@ -636,7 +636,21 @@ footer .mailto:hover {
 
 }
 
+/* Popup */
+promoVideo {
+  z-index: 1000000;
+}
+promoVideo .modal-content {
+  background: rgba(0, 0, 0, 0.5) !important;
+}
 
+promoVideo .body {
+  background: none !important;
+}
+
+promoVideo .modal-dialog {
+  background: rgba(0, 0, 0, 0.5) !important;
+}
 
 /*@media smaller device, old iphone 4 Optimization*/
 @media(max-width: 400px) {
@@ -650,6 +664,62 @@ footer .mailto:hover {
     width:80px !important;
     max-width:100px;
   }
+
+  .modal-vid {
+    width: 800px;
+    margin: 50px auto;
+    overflow: hidden;
+  }
+
+  /***** MODAL PROPERTIES *****/
+ .modal-cont {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background:transparent;
+    border:none;
+    outline:none;
+}
+.modal-cont iframe {
+    border:none;
+    padding:0;
+    margin:0;
+    z-index: 10000;
+}
+.close {
+    font-size: 80px;
+    margin:-20px 0 0 0;
+}
+/***** MEDIA QUERIES *****/
+ @media only screen and (max-width: 641px) {
+    /***** MODAL PROPERTIES *****/
+    .modal-bod {
+        height:500px;
+        padding:0;
+        margin: 0;
+    }
+    .modal-cont {
+        padding:0;
+        margin: 0;
+    }
+    .modal-dial {
+        position: relative;
+        width: auto;
+        margin: 15px;
+    }
+    .close {
+        margin:-12px 0 0 0;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    /***** MODAL PROPERTIES *****/
+    .close {
+        font-size: 30px;
+        color: white;
+        margin:30px -43px -20px 100px;
+    }
+}
 
   #bs-example-navbar-collapse-1 {
     background: black;

@@ -62,15 +62,32 @@
             <div class="col-md-12 text-center">
               <h1 class = "caption"><span class="trn">PLAY_WIN</span></h1>
             </div>
-            <div class="col-md-12 text-center" style = "margin-top:5px;">
-              <a class="btn btn-warning video-btn"><span class="glyphicon glyphicon-play" aria-hidden="true"></span> What is FirstBlood?</a>
+            <div class="col-md-12 text-center" style = "margin-top:100px;">
+              <a class="btn btn-warning video-btn" data-toggle="modal" data-target="#videoModal" data-theVideo='https://www.youtube.com/embed/9oFZNaI07wc'; ><span class="glyphicon glyphicon-play" aria-hidden="true"></span> What is FirstBlood?</a>
+
+
+
+
               <a class="btn btn-warning alpha-btn"><i class="fa fa-youtube-play" aria-hidden="true"></i> Get Invitation</a>
+              <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true" margin-top = "50px" margin-right = "50px">
+                <div class="modal-dial">
+                   <div class="modal-cont">
+                <div class="modal-bod">
+                      <promoVideo>
+                        <iframe width="800" height="451" margin="200px" src="" frameborder="0" allowfullscreen></iframe>
+                      </promoVideo>
+                </div>
+                </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+
         <div class="header-demo">
           <img src="/resources/img/main/alpha-demo.png" width="65%">
         </div>
+
       </div>
     </div>
   </header>
@@ -283,6 +300,7 @@
   </footer>
 
 
+
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="/resources/js/jquery-1.11.1.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -291,6 +309,9 @@
   <script src="/resources/js/jquery.translate.js"></script>
   <!-- Translations -->
   <script src="/resources/js/app/translations.js"></script>
+
+    <script src="/resources/js/app/popUpVid.js"></script>
+
 </body>
 
 </html>
