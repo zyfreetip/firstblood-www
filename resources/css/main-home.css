@@ -319,6 +319,7 @@ nav.navbar .navbar-nav {
 #info .grey-button:hover {
   background: #ff9900;
   color:#fffaaa;
+  border: 3px solid #ff9900;
 }
 
 /*Mission Section ( Mission )*/
