@@ -495,7 +495,6 @@ footer .mailto:hover {
 
 
 
-
 /* Modal Section ( Modal )*/
 
 promoVideo {
@@ -664,7 +663,7 @@ promoVideo .modal-dialog {
 }
 
 .footer-mobile {
-    padding-left:140px !important;
+    padding-left:80px !important;
 }
 
 }
