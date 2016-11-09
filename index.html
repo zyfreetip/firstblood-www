@@ -19,12 +19,24 @@
 </head>
 
 <body>
-  <div class="languages">
-    <a href="javascript:;" onclick="changeLanguage('en')"><img src="/resources/img/main/us.svg" class="language-flag" /></a>
-    <a href="javascript:;" onclick="changeLanguage('cn')"><img src="/resources/img/main/cn.svg" class="language-flag" /></a>
-  </div>
+
 
   <nav class="navbar">
+
+
+
+    <script type="text/javascript">
+
+   function selectLanguage(){
+      var selectBox = document.getElementById("country-options");
+      var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+      changeLanguage(selectedValue);
+    }
+
+    </script>
+
+
+
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -45,10 +57,14 @@
           <li><a href = "https://goo.gl/xxm5Bm"><i class="fa fa-file-text-o" aria-hidden="true"></i> <span class="trn">WHITE_PAPER</span></a></li>
           <li><a href = "http://slack.firstblood.io/"><i class="fa fa-slack" aria-hidden="true"></i> <span class="trn">SLACK</span></a></li>
         </ul>
-        <!-- <div class = "language-wrap">
-          <li><div class="language-selector first" ng-click="changeLanguage('en')"><img src="/resources/img/main/us.svg" class="language-flag" /> EN</div></li>
-          <li><div class="language-selector" ng-click="changeLanguage('cn')"><img src="/resources/img/main/cn.svg" class="language-flag" /> 中文</div></li>
-        </div> -->
+        <div id="country-select">
+          <form>
+            <select id="country-options" name="country-options" onchange ="selectLanguage();" >
+              <option value = 'en'>English</option>
+              <option value = 'cn'>Chinese</option>
+            </select>
+          </form>
+        </div>
       </div>
       <!-- /.navbar-collapse -->
     </div>
@@ -63,8 +79,8 @@
               <h1 class = "caption"><span class="trn">PLAY_WIN</span></h1>
             </div>
             <div class="col-md-12 text-center">
-              <a class="btn btn-warning video-btn" data-toggle="modal" data-target="#videoModal" data-theVideo='https://www.youtube.com/embed/9oFZNaI07wc'; ><span class="glyphicon glyphicon-play" aria-hidden="true"></span> What is FirstBlood?</a>
-              <a class="btn btn-warning alpha-btn"><i class="fa fa-youtube-play" aria-hidden="true"></i> Get Invitation</a>
+              <a class="btn btn-warning video-btn" data-toggle="modal" data-target="#videoModal" data-theVideo='https://www.youtube.com/embed/9oFZNaI07wc'; ><span class="glyphicon glyphicon-play" aria-hidden="true"></span> <span class="trn">WHAT_FIRSTBLOOD</span></a>
+              <a class="btn btn-warning alpha-btn"><i class="fa fa-youtube-play" aria-hidden="true"></i><span class="trn">RESERVE</span></a>
               <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true" margin-top = "50px" margin-right = "50px">
                 <div class="modal-dial">
                    <div class="modal-cont">
@@ -93,29 +109,29 @@
         <div class="table">
           <div class="row">
             <div class = "col-md-12 text-center">
-              <h2 class = "intro-slogan">Your <orange>Gateway</orange> To</br> <red>Competitive</red> eSports</h2>
+              <h2 class = "intro-slogan"><span class="trn">YOUR_GATEWAY</span></h2>
             </div>
           </div>
           <div class="row">
             <div class = "col-md-12 text-center">
-               <p class = "intro-title">How it works?</p>
+               <p class = "intro-title"><span class="trn">HOW_WORKS</span></p>
             </div>
           </div>
           <div class="row">
             <div class = "col-md-4 col-sm-4 text-center">
               <img src = "/resources/img/main/game-icon.png" ><br/>
-              <p class = "icon-text">Select the game <br />and stakes</p>
-              <p>Players select the games <br />they want to play and <br />the stakes they want to play with</p>
+              <p class = "icon-text"><span class="trn">STEP_1_TITLE</span></p>
+              <p><span class="trn">STEP_1</span></p>
             </div>
             <div class = "col-md-4 col-sm-4 text-center">
               <img src = "/resources/img/main/opponent-icon.png" ><br/>
-              <p class = "icon-text">Find <br />Opponents</p>
-              <p>Player may invite or wait <br />for someone to join the game, <br />or use a matchmaker to find an opponent.</p>
+              <p class = "icon-text"><span class="trn">STEP_2_TITLE</span></p>
+              <p><span class="trn">STEP_2</span></p>
             </div>
             <div class = "col-md-4 col-sm-4 text-center">
               <img src = "/resources/img/main/rewards-icon.png" ><br/>
-              <p class = "icon-text">Play games <br />and win rewards</p>
-              <p>Game finishes, Witnesses fetch  <br />result (firstblood, turret, winner, etc.),  <br />smart contract processes reward.</p>
+              <p class = "icon-text"><span class="trn">STEP_3_TITLE</span></p>
+              <p><span class="trn">STEP_3</span></p>
             </div>
           </div>
         </div>
@@ -147,26 +163,26 @@
         <div class="table">
           <div class="row">
             <div class = "col-md-12 text-center">
-              <h2 class = "intro-slogan">More About </br> <orange>FirstBlood</orange></h2>
+              <h2 class = "intro-slogan"><span class="trn">MORE_ABOUT</span></h2>
             </div>
           </div>
           <div class="row">
             <div class = "col-md-4 col-sm-4 text-center">
               <img src = "/resources/img/main/whitepaper-icon.png" ><br />
-              <p class = "icon-text">Download <br />White Paper</p>
-              <p> A platform that lets eSports players challenge<br /> each other in the field and win rewards.</p>
+              <p class = "icon-text"><span class="trn">DOWNLOAD_WHITE</span></p>
+              <p><span class="trn">PLATFORM_DESC</span></p>
               <a href = "https://goo.gl/xxm5Bm" class = "btn grey-button">Download</a>
             </div>
             <div class = "col-md-4 col-sm-4 text-center">
               <img src = "/resources/img/main/winning-icon.png" ><br />
-              <p class = "icon-text">Automatically <br />Verified And Send</p>
-              <p> Made possible by smart contracts <br />and oracles in the blockchain.</p>
+              <p class = "icon-text"><span class="trn">AUTO_VERIFY</span></p>
+              <p><span class="trn">POSSIBLE_SMART</span></p>
               <a href = "https://etherscan.io/token/firstblood" class = "btn grey-button">Contract Explorer</a>
             </div>
             <div class = "col-md-4 col-sm-4 text-center">
               <img src = "/resources/img/main/token-icon.png" ><br />
-              <p class = "icon-text">FirstBlood<br />Platform Tokens</p>
-              <p> FirstBlood concluded its <br />crowdsale on 09/26/2016</p>
+              <p class = "icon-text"><span class="trn">FB_TOKENS</span></p>
+              <p><span class="trn">CROWDSALE_END</span></p>
               <a href = "https://firstblood.io/sale/index.html" class = "btn grey-button">View Result</a>
             </div>
           </div>
@@ -179,8 +195,8 @@
        <div class="table">
          <div class="row">
            <div class = "col-md-12 text-center">
-             <h2 class = "intro-slogan">Our Mission</h2>
-             <p style = "font-size:20px;margin:-20px 0px 20px 0px;">Building a decentralized eSports rewarding <br />platform that every gamer loves</p>
+             <h2 class = "intro-slogan"><span class="trn">MISSION</span></h2>
+             <p style = "font-size:20px;margin:-20px 0px 20px 0px;"><span class="trn">BUILDING_PLATFORM</span></p>
            </div>
          </div>
          <div class="row">
@@ -197,26 +213,26 @@
        <div class="table">
          <div class="row">
            <div class = "col-md-12 text-center">
-              <p class = "intro-title">News & Updates</p>
+              <p class = "intro-title"><span class="trn">NEWS</span></p>
            </div>
            <div class="row news-wrapper">
              <div class = "col-md-4 col-sm-4 text-center">
                <img src = "https://img1.steemit.com/0x0/http://i.imgur.com/S1Z5dTa.png" ><br />
                <a href = "https://steemit.com/firstblood/@jasonmcz/firstblood-the-esports-rewards-platform-built-on-ethereum-gets-down-to-business-with-white-paper-release"
-               class = "news-text">FirstBlood, the eSports Rewards <br/>Platform Built on Ethereum</a>
-               <p> FirstBlood, the eSports Rewards Platform Built on Ethereum, Gets Down to Business with White Paper Release</p>
+               class = "news-text"><span class="trn">BUILT_ETHEREUM</span></a>
+               <p><span class="trn">BUILT_ETHEREUM_1</span>/p>
              </div>
              <div class = "col-md-4 col-sm-4 text-center">
                <img src = "https://community.firstblood.io/uploads/default/optimized/1X/d4996663b745cb2878cab4d085469d0aa00567d2_1_690x389.png" ><br />
                <a href = "https://community.firstblood.io/t/firstblood-presented-at-ethereum-meetup-in-hongkong/85"
-               class = "news-text">FirstBlood presented its plan <br />to bring blockchain to gaming</a>
-               <p> FirstBlood Presented Its Plan to Bring Blockchain Technology to eSports at HongKong Ethereum Meetup</p>
+               class = "news-text"><span class="trn">FB_PRESENT</span></a>
+               <p><span class="trn">FB_PRESENT_1</span></p>
              </div>
              <div class = "col-md-4 col-sm-4 text-center">
                <img src = "/resources/img/main/coverphoto.png" ><br />
                <a href = "https://community.firstblood.io/t/ask-us-anything-november-9th-8-10pm-est/260"
-               class = "news-text">FirstBlood to Host its 1st Community AMA on 11/09/2016</a>
-               <p>We've been a little quiet since the presale, lots of internal business to take care of, but we've been paying really close attention and ...</p>
+               class = "news-text"><span class="trn">AMA</span></a>
+               <p><span class="trn">AMA_1</span></p>
              </div>
            </div>
          </div>
@@ -244,14 +260,14 @@
 
              <!--Second column-->
              <div class="col-md-2 col-sm-2 col-md-offset-1 text-center-mobile footer-mobile" style = "text-align:left">
-                 <h5 class="title" >Company</h5>
+                 <h5 class="title" ><span class="trn">COMPANY</span></h5>
                  <ul>
-                   <li><a href="/about" target='_self'>About us</a></li>
-                   <li><a href="/careers" target='_self'>Careers</a></li>
-                   <li><a href="/press" target='_self'>Press</a></li>
-                   <li><a href='https://blog.firstblood.io' target ='_self'>Blog</a></li>
+                   <li><a href="/about" target='_self'><span class="trn">ABOUT_US</span></a></li>
+                   <li><a href="/careers" target='_self'><span class="trn">CAREERS</span></a></li>
+                   <li><a href="/press" target='_self'><span class="trn">PRESS</span></a></li>
+                   <li><a href='https://blog.firstblood.io' target ='_self'><span class="trn">BLOG</span></a></li>
                    <!-- <li><a href="/legal" target='_self'> Site Terms </a></li> -->
-                   <li><a href="/legal" target='_self'>Legal &amp; Policy</a></li>
+                   <li><a href="/legal" target='_self'><span class="trn">LEGAL</span></a></li>
                  </ul>
              </div>
              <!--/.Second column-->
@@ -260,13 +276,13 @@
 
              <!--Third column-->
              <div class="col-md-2 col-sm-2 text-center-mobile footer-mobile" style = "text-align:left">
-                 <h5 class="title" >Resources</h5>
+                 <h5 class="title" ><span class="trn">RESOURCES</span></h5>
                  <ul>
-                     <li><a href="/faq" target ='_blank'>FAQ</a></li>
+                     <li><a href="/faq" target ='_blank'><span class="trn">FAQ</span></a></li>
                      <!-- <li><a href='/roadmap' target='_self'>{{ 'ROADMAP' | translate}}</a></li> -->
-                     <li><a href="https://goo.gl/xxm5Bm">White Paper</a></li>
-                     <li><a href="https://github.com/Firstbloodio/brand_assets">Brand Assets</a></li>
-                     <li><a href="" target='_self' style = "border-bottom:1px dashed #ff9900">Crowdsale</a></li>
+                     <li><a href="https://goo.gl/xxm5Bm"><span class="trn">WHITE_PAPER</span></a></li>
+                     <li><a href="https://github.com/Firstbloodio/brand_assets"><span class="trn">BRAND</span></a></li>
+                     <li><a href="" target='_self' style = "border-bottom:1px dashed #ff9900"><span class="trn">CROWDSALE</span></a></li>
                  </ul>
              </div>
 
@@ -283,6 +299,7 @@
                  </ul>
              </div>
              <!--/.Fourth column-->
+
 
          </div>
      </div>
@@ -305,8 +322,11 @@
   <script src="/resources/js/jquery.translate.js"></script>
   <!-- Translations -->
   <script src="/resources/js/app/translations.js"></script>
+  <!-- Language Dropdown -->
+  <script src="/resources/js/app/langDropdown.js"></script>
   <!-- pop-up video -->
   <script src="/resources/js/app/popUpVid.js"></script>
+
 
 </body>
 

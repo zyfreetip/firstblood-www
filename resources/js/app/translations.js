@@ -31,6 +31,8 @@ var dict = {
       "en":"Community",
       "cn":"论坛"
    },
+
+
    "LOGIN":{
       "en":"Login",
       "cn":"登录"
@@ -63,6 +65,10 @@ var dict = {
       "en":"Reserve!",
       "cn":"邀请我!"
    },
+   "YOUR_GATEWAY":{
+     "en":"Your <orange>Gateway</orange> To</br> <red>Competitive</red> eSports",
+     "cn":"Your <orange>Gateway</orange> To</br> <red>Competitive</red> eSports"
+   },
    "HOW_WORKS_DETAILS":{
       "en":"A service that\'s <high-light>automated</high-light> and <high-light>trustworthy!</high-light>",
       "cn":"我们提供的平台是 <high-light>全自动的</high-light> 并且 <high-light>值得信赖!</high-light>"
@@ -84,9 +90,110 @@ var dict = {
       "cn":"我们为您带来 Firstblood"
    },
    "PLATFORM_DESC":{
-      "en":"A platform that lets eSports players challenge each other in the field and win rewards.<br /> Made possible by smart contracts and oracles in the blockchain.",
-      "cn":"第一个能够让草根电竞玩家 随时随地参与竞赛并且获得赏金的平台.<br />我们是第一个使用区块链里面的智能合约和先知来进行电竞比赛的服务的公司."
+      "en":"A platform that lets eSports players challenge each other in the field and win rewards.",
+      "cn":"第一个能够让草根电竞玩家 随时随地参与竞赛并且获得赏金的平台."
    },
+
+   "POSSIBLE_SMART":{
+      "en":"Made possible by smart contracts and oracles in the blockchain.",
+      "cn":"我们是第一个使用区块链里面的智能合约和先知来进行电竞比赛的服务的公司."
+   },
+
+   "DOWNLOAD_WHITE":{
+      "en":"Download <br />White Paper",
+      "cn":"Download <br />White Paper"
+   },
+
+   "AUTO_VERIFY":{
+      "en":"Automatically <br />Verified And Send",
+      "cn":"Automatically <br />Verified And Send"
+   },
+
+   "FB_TOKENS":{
+      "en":"FirstBlood<br />Platform Tokens",
+      "cn":"FirstBlood<br />Platform Tokens"
+   },
+
+   "CROWDSALE_END":{
+      "en":"FirstBlood concluded its <br />crowdsale on 09/26/2016",
+      "cn":"FirstBlood concluded its <br />crowdsale on 09/26/2016"
+   },
+
+   "MISSION":{
+      "en":"Our Mission",
+      "cn":"Our Mission"
+   },
+
+   "BUILDING_PLATFORM":{
+      "en":"Building a decentralized eSports rewarding <br />platform that every gamer loves",
+      "cn":"Building a decentralized eSports rewarding <br />platform that every gamer loves"
+   },
+
+   "NEWS":{
+      "en":"News & Updates",
+      "cn":"News & Updates"
+   },
+
+   "BUILT_ETHEREUM":{
+      "en":"FirstBlood, the eSports Rewards <br/>Platform Built on Ethereum",
+      "cn":"FirstBlood, the eSports Rewards <br/>Platform Built on Ethereum"
+   },
+
+   "BUILT_ETHEREUM_1":{
+      "en":"FirstBlood, the eSports Rewards Platform Built on Ethereum, Gets Down to Business with White Paper Release",
+      "cn":"FirstBlood, the eSports Rewards Platform Built on Ethereum, Gets Down to Business with White Paper Release"
+   },
+
+   "FB_PRESENT":{
+      "en":"FirstBlood presented its plan <br />to bring blockchain to gaming",
+      "cn":"FirstBlood presented its plan <br />to bring blockchain to gaming"
+   },
+
+   "FB_PRESENT_1":{
+      "en":"FirstBlood Presented Its Plan to Bring Blockchain Technology to eSports at HongKong Ethereum Meetup",
+      "cn":"FirstBlood Presented Its Plan to Bring Blockchain Technology to eSports at HongKong Ethereum Meetup"
+   },
+
+   "AMA":{
+      "en":"FirstBlood to Host its 1st Community AMA on 11/09/2016",
+      "cn":"FirstBlood to Host its 1st Community AMA on 11/09/2016"
+   },
+
+   "AMA_1":{
+      "en":"We've been a little quiet since the presale, lots of internal business to take care of, but we've been paying really close attention and ...",
+      "cn":"We've been a little quiet since the presale, lots of internal business to take care of, but we've been paying really close attention and ..."
+   },
+
+   "COMPANY":{
+      "en":"Company",
+      "cn":"Company"
+   },
+
+   "ABOUT_US":{
+      "en":"About us",
+      "cn":"About us"
+   },
+   "CAREERS":{
+      "en":"Careers",
+      "cn":"Careers"
+   },
+   "PRESS":{
+      "en":"Press",
+      "cn":"Press"
+   },
+  
+   "LEGAL":{
+      "en":"Legal &amp; Policy",
+      "cn":"Legal &amp; Policy"
+   },
+
+   "BRAND":{
+      "en":"Brand Assets",
+      "cn":"Brand Assets"
+   },
+
+
+
    "GAME_DATA":{
       "en":"Game data will be <high-light>automatically</high-light> verified,<br />Reward will be <high-light>automatically</high-light> sent.",
       "cn":"所有比赛的数据将会被 <high-light>自动化地</high-light> 采集和验证,<br />赏金将会被 <high-light>自动化地</high-light>处理."
@@ -122,7 +229,26 @@ var dict = {
    "PRIVACY":{
       "en":"Privacy Policy",
       "cn":"隐私条款"
-   }
+   },
+   "STEP_1_TITLE": {
+      "en":"Select the game <br />and stakes",
+      "cn":"Select the game <br />and stakes"
+   },
+   "STEP_2_TITLE": {
+      "en":"Find <br />Opponents",
+      "cn":"Find <br />Opponents"
+   },
+   "STEP_3_TITLE": {
+      "en":"Play games <br />and win rewards",
+      "cn":"Play games <br />and win rewards"
+   },
+
+   "MORE_ABOUT": {
+      "en":"More About </br> <orange>FirstBlood</orange>",
+      "cn":"More About </br> <orange>FirstBlood</orange>"
+   },
+
+
 }
 
 var translator = $('body').translate({lang: "en", t: dict}); //use English
