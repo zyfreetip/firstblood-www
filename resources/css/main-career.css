@@ -415,6 +415,7 @@ footer ul {
 footer ul li a {
   font-size: 1em;
   color: #666C6F !important;
+  font-weight: 300;
 }
 
 footer a:hover {
@@ -485,7 +486,7 @@ footer .title {
 
 footer .mailto{
   color:#C72728;
-  font-weight:700
+  font-weight:700`
 }
 
 footer .mailto:hover {
