@@ -105,7 +105,7 @@ var dict = {
    },
 
    "AUTO_VERIFY":{
-      "en":"Automatically <br />Verified And Send",
+      "en":"Automatically <br />Verified And Sent",
       "cn":"自动化的<br />验证和支付系统"
    },
 
@@ -115,8 +115,8 @@ var dict = {
    },
 
    "CROWDSALE_END":{
-      "en":"FirstBlood concluded its <br />crowdsale on 09/26/2016",
-      "cn":"FirstBlood 成功的于09/26/2016<br />完成它的产品众筹"
+      "en":"FirstBlood concluded its <br />crowdsale on 09/26/2016.",
+      "cn":"FirstBlood 成功的于09/26/2016<br />完成它的产品众筹."
    },
 
    "MISSION":{
@@ -125,7 +125,7 @@ var dict = {
    },
 
    "BUILDING_PLATFORM":{
-      "en":"Building a decentralized eSports rewarding <br />platform that every gamer loves",
+      "en":"Build a decentralized eSports reward <br />platform that every gamer loves",
       "cn":"打造一个完全中心化的 <br />电竞玩家喜爱的电竞平台"
    },
 
@@ -235,12 +235,12 @@ var dict = {
       "cn":"Select the game <br />and stakes"
    },
    "STEP_2_TITLE": {
-      "en":"Find <br />Opponents",
-      "cn":"Find <br />Opponents"
+      "en":"Find <br />Opponent",
+      "cn":"Find <br />Opponent"
    },
    "STEP_3_TITLE": {
-      "en":"Play games <br />and win rewards",
-      "cn":"Play games <br />and win rewards"
+      "en":"Play game <br />and win reward",
+      "cn":"Play game <br />and win reward"
    },
 
    "MORE_ABOUT": {
