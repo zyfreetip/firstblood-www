@@ -25,7 +25,7 @@ var dict = {
    },
    "SLACK":{
       "en":"Slack",
-      "cn":"Slack聊天"
+      "cn":"聊天组"
    },
    "FORUM":{
       "en":"Community",
@@ -51,7 +51,7 @@ var dict = {
    },
    "READ_MORE":{
       "en":"Read More",
-      "cn":"读更"
+      "cn":"了解我们"
    },
    "WHAT_FIRSTBLOOD":{
       "en":"What is FirstBlood?",
@@ -67,7 +67,7 @@ var dict = {
    },
    "YOUR_GATEWAY":{
      "en":"Your <orange>Gateway</orange> To</br> <red>Competitive</red> eSports",
-     "cn":"Your <orange>Gateway</orange> To</br> <red>Competitive</red> eSports"
+     "cn":"你我的<orange>全球化的</orange></br> 电竞<red>平台</red>"
    },
    "HOW_WORKS_DETAILS":{
       "en":"A service that\'s <high-light>automated</high-light> and <high-light>trustworthy!</high-light>",
@@ -87,7 +87,7 @@ var dict = {
    },
    "WE_BUILD":{
       "en":"We are building FirstBlood",
-      "cn":"我们为您带来 Firstblood"
+      "cn":"我们为您带来第一滴血"
    },
    "PLATFORM_DESC":{
       "en":"A platform that lets eSports players challenge each other in the field and win rewards.",
@@ -101,42 +101,42 @@ var dict = {
 
    "DOWNLOAD_WHITE":{
       "en":"Download <br />White Paper",
-      "cn":"Download <br />White Paper"
+      "cn":"下载<br />白皮书"
    },
 
    "AUTO_VERIFY":{
       "en":"Automatically <br />Verified And Send",
-      "cn":"Automatically <br />Verified And Send"
+      "cn":"自动化的<br />验证和支付系统"
    },
 
    "FB_TOKENS":{
       "en":"FirstBlood<br />Platform Tokens",
-      "cn":"FirstBlood<br />Platform Tokens"
+      "cn":"FirstBlood<br />平台的代币"
    },
 
    "CROWDSALE_END":{
       "en":"FirstBlood concluded its <br />crowdsale on 09/26/2016",
-      "cn":"FirstBlood concluded its <br />crowdsale on 09/26/2016"
+      "cn":"FirstBlood 成功的于09/26/2016<br />完成它的产品众筹"
    },
 
    "MISSION":{
       "en":"Our Mission",
-      "cn":"Our Mission"
+      "cn":"我们的未来"
    },
 
    "BUILDING_PLATFORM":{
       "en":"Building a decentralized eSports rewarding <br />platform that every gamer loves",
-      "cn":"Building a decentralized eSports rewarding <br />platform that every gamer loves"
+      "cn":"打造一个完全中心化的 <br />电竞玩家喜爱的电竞平台"
    },
 
    "NEWS":{
       "en":"News & Updates",
-      "cn":"News & Updates"
+      "cn":"新闻 & 更新"
    },
 
    "BUILT_ETHEREUM":{
       "en":"FirstBlood, the eSports Rewards <br/>Platform Built on Ethereum",
-      "cn":"FirstBlood, the eSports Rewards <br/>Platform Built on Ethereum"
+      "cn":"FirstBlood, 建立与以太坊上的 <br/>电竞赏金平台"
    },
 
    "BUILT_ETHEREUM_1":{
@@ -146,7 +146,7 @@ var dict = {
 
    "FB_PRESENT":{
       "en":"FirstBlood presented its plan <br />to bring blockchain to gaming",
-      "cn":"FirstBlood presented its plan <br />to bring blockchain to gaming"
+      "cn":"FirstBlood 展示了公司的将 <br />区块链于电子竞技结合的企划。"
    },
 
    "FB_PRESENT_1":{
@@ -156,7 +156,7 @@ var dict = {
 
    "AMA":{
       "en":"FirstBlood to Host its 1st Community AMA on 11/09/2016",
-      "cn":"FirstBlood to Host its 1st Community AMA on 11/09/2016"
+      "cn":"FirstBlood于11/09/2016，进行了第一次［AMA]“问我什么都可以” 有问必答活动"
    },
 
    "AMA_1":{
@@ -166,30 +166,30 @@ var dict = {
 
    "COMPANY":{
       "en":"Company",
-      "cn":"Company"
+      "cn":"关于公司"
    },
 
    "ABOUT_US":{
       "en":"About us",
-      "cn":"About us"
+      "cn":"关于我们"
    },
    "CAREERS":{
       "en":"Careers",
-      "cn":"Careers"
+      "cn":"企业招聘"
    },
    "PRESS":{
       "en":"Press",
-      "cn":"Press"
+      "cn":"媒体报道"
    },
-  
+
    "LEGAL":{
       "en":"Legal &amp; Policy",
-      "cn":"Legal &amp; Policy"
+      "cn":"法律 &amp; 制度"
    },
 
    "BRAND":{
       "en":"Brand Assets",
-      "cn":"Brand Assets"
+      "cn":"商标图片"
    },
 
 
@@ -245,7 +245,7 @@ var dict = {
 
    "MORE_ABOUT": {
       "en":"More About </br> <orange>FirstBlood</orange>",
-      "cn":"More About </br> <orange>FirstBlood</orange>"
+      "cn":"了解更多关于</br> <orange>第一滴血的信息</orange>"
    },
 
 
