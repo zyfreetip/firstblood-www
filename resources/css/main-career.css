@@ -259,7 +259,7 @@ nav.navbar .navbar-nav {
   padding-top:50px;
   padding-right:30% !important;
   padding-left:30% !important;
-  text-align: center;
+  /*text-align: center;*/
   /*border-right: 1px dashed #CECECE;*/
   /*border-radius: 50px;*/
 }
@@ -292,7 +292,7 @@ nav.navbar .navbar-nav {
   text-transform: uppercase;
   margin-bottom:10px;
   font-weight: 700;
-  width:60%;
+  width:100%;
 }
 
 #career-content .career-perk-content {
@@ -304,9 +304,9 @@ nav.navbar .navbar-nav {
 #career-content .sub-title{
   width:100% !important;
   padding-top:20px;
-  padding-bottom:20px;
+  padding-bottom:10px;
   /*padding-left:10% !important;*/
-  text-align: center;
+  /*text-align: center;*/
 }
 
 #career-content .job-title {
@@ -323,6 +323,10 @@ nav.navbar .navbar-nav {
   /*border-bottom:none !important;*/
   cursor: pointer;
   color:#ff9900;
+}
+
+#career-content p, li{
+  font-weight: 300 !important;
 }
 
 
