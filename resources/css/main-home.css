@@ -672,22 +672,15 @@ promoVideo .modal-dialog {
         margin:-12px 0 0 0;
     }
 
-}
-
-
-@media only screen and (min-width: 768px) {
-    /***** MODAL PROPERTIES *****/
-    .close {
-        font-size: 30px;
-        color: white;
-        margin:30px -43px -20px 100px;
+    #bs-example-navbar-collapse-1 {
+      background: black;
+      border-top: 3px solid #ff9900;
+      border-bottom: 3px solid #ff9900;
+      margin-top:100px;
     }
 
-    .footer-mobile {
-        padding-left:140px !important;
-    }
-}
 
+}
 
 
 
@@ -784,14 +777,6 @@ promoVideo .modal-dialog {
     padding-left:80px !important;
 }
 
-#bs-example-navbar-collapse-1 {
-  background: black;
-  border-top: 3px solid #ff9900;
-  border-bottom: 3px solid #ff9900;
-  margin-top:100px;
-}
-
-
 }
 
 
@@ -816,6 +801,7 @@ promoVideo .modal-dialog {
     border-bottom: 3px solid #ff9900;
     margin-top:100px;
   }
+
 
   .video-btn,.alpha-btn {
     width:300px !important;
@@ -873,6 +859,17 @@ promoVideo .modal-dialog {
   .modal-bod {
       height:325px;
 
+  }
+
+  /***** MODAL PROPERTIES *****/
+  .close {
+      font-size: 30px;
+      color: white;
+      margin:30px -43px -20px 100px;
+  }
+
+  .footer-mobile {
+      padding-left:140px !important;
   }
 }
 
