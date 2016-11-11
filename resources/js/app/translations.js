@@ -231,12 +231,12 @@ var dict = {
       "cn":"隐私条款"
    },
    "STEP_1_TITLE": {
-      "en":"Select the game <br />and stakes",
-      "cn":"Select the game <br />and stakes"
+      "en":"Choose your game <br />and your stakes",
+      "cn":"Choose your game <br />and your stakes"
    },
    "STEP_2_TITLE": {
-      "en":"Find <br />Opponent",
-      "cn":"Find <br />Opponent"
+      "en":"Find an<br />Opponent",
+      "cn":"Find an<br />Opponent"
    },
    "STEP_3_TITLE": {
       "en":"Play game <br />and win reward",
