@@ -23,20 +23,6 @@
 
   <nav class="navbar">
 
-
-
-    <script type="text/javascript">
-
-   function selectLanguage(){
-      var selectBox = document.getElementById("country-options");
-      var selectedValue = selectBox.options[selectBox.selectedIndex].value;
-      changeLanguage(selectedValue);
-    }
-
-    </script>
-
-
-
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -97,7 +83,7 @@
         </div>
 
         <div class="header-demo">
-          <img src="/resources/img/main/alpha-demo.png" width="65%">
+          <img src="/resources/img/main/alpha-demo.png" width="60%">
         </div>
 
       </div>
@@ -325,6 +311,18 @@
   <script src="/resources/js/app/langDropdown.js"></script>
   <!-- pop-up video -->
   <script src="/resources/js/app/popUpVid.js"></script>
+
+  <!-- pop -->
+  <script type="text/javascript">
+
+ function selectLanguage(){
+    var selectBox = document.getElementById("country-options");
+    var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+    changeLanguage(selectedValue);
+  }
+
+  </script>
+
 
   <!-- Mailing list modal -->
   <div class="modal fade middle" id="mailingListModal" tabindex="-1" role="dialog">

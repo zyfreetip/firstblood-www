@@ -1,3 +1,6 @@
+/*@Liscense Acknowledgement*/
+/*Icon designed by {Freepik} from Flaticon*/
+
 /*main-career, responsible for /career/index.html*/
 /*@Import fonts using @import*/
 /*font-family: 'Roboto', sans-serif;*/
@@ -5,7 +8,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto:300,400');
 
-/*Bootstrap Inheritage Custimized*/
+/*Bootstrap Inheritage Customized*/
 
 .container {
   /*padding-left: 30px !important;*/
@@ -251,18 +254,59 @@ nav.navbar .navbar-nav {
 
 /*Career-Content Section ( Career-Content )*/
 
+#career-content .career-content-block{
+  width:100% !important;
+  padding-top:50px;
+  padding-right:30% !important;
+  padding-left:30% !important;
+  text-align: center;
+  /*border-right: 1px dashed #CECECE;*/
+  /*border-radius: 50px;*/
+}
+
 #career-content .career-content-left{
   width:100% !important;
   padding-top:5px;
   padding-right:10% !important;
-  /*border-right: 1px dashed #CECECE;*/
-  /*border-radius: 50px;*/
+  margin-bottom: 10%;
 }
 
 #career-content .career-content-right{
   width:100% !important;
   padding-top:5px;
   padding-left:10% !important;
+  margin-bottom: 10%;
+}
+
+#career-content .career-perk-block {
+  width:50%;
+  padding:15px;
+  /*display:inline;*/
+}
+
+#career-content .career-perk-block img{
+  width:20%;
+}
+
+#career-content .career-perk-title {
+  text-transform: uppercase;
+  margin-bottom:10px;
+  font-weight: 700;
+  width:60%;
+}
+
+#career-content .career-perk-content {
+  color:darkgrey;
+  width:100%;
+}
+
+
+#career-content .sub-title{
+  width:100% !important;
+  padding-top:20px;
+  padding-bottom:20px;
+  /*padding-left:10% !important;*/
+  text-align: center;
 }
 
 #career-content .job-title {
