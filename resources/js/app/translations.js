@@ -235,8 +235,8 @@ var dict = {
       "cn":"Choose your game <br />and your stakes"
    },
    "STEP_2_TITLE": {
-      "en":"Find an<br />Opponent",
-      "cn":"Find an<br />Opponent"
+      "en":"Find <br />Opponent",
+      "cn":"Find <br />Opponent"
    },
    "STEP_3_TITLE": {
       "en":"Play game <br />and win reward",
