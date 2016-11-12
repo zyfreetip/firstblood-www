@@ -1,3 +1,6 @@
 .DS_Store
+<<<<<<< Updated upstream
 node_modules
 .node*
+=======
+>>>>>>> Stashed changes

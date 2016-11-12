@@ -192,8 +192,6 @@ var dict = {
       "cn":"商标图片"
    },
 
-
-
    "GAME_DATA":{
       "en":"Game data will be <high-light>automatically</high-light> verified,<br />Reward will be <high-light>automatically</high-light> sent.",
       "cn":"所有比赛的数据将会被 <high-light>自动化地</high-light> 采集和验证,<br />赏金将会被 <high-light>自动化地</high-light>处理."
@@ -247,8 +245,6 @@ var dict = {
       "en":"More About </br> <orange>FirstBlood</orange>",
       "cn":"了解更多关于</br> <orange>第一滴血的信息</orange>"
    },
-
-
 }
 
 var translator = $('body').translate({lang: "en", t: dict}); //use English

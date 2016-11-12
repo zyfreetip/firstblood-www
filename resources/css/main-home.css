@@ -773,9 +773,8 @@ promoVideo .modal-dialog {
 
 }
 
-.footer-mobile {
-    padding-left:80px !important;
-}
+
+
 
 }
 
@@ -783,7 +782,8 @@ promoVideo .modal-dialog {
 
 
 /*@media Mobile, iPhone, Galaxy Optimization*/
-@media(max-width: 768px) {
+@media(max-width: 790px) {
+
 
   header {
     height:650px !important;
@@ -851,6 +851,18 @@ promoVideo .modal-dialog {
   .footer-mobile {
       padding-left:140px !important;
   }
+
+  .mobile-row {
+    margin-top: 10px;
+  }
+
+  .mobile-select {
+    width: 90px;
+    height: 40px !important;
+    padding: 5px !important;
+    margin-left: 10%
+  }
+
   .modal-cont iframe {
     width: 576px !important;
     height: 325px !important;
@@ -882,6 +894,20 @@ promoVideo .modal-dialog {
   .modal-bod {
       height:197px;
   }
+
+  .mobile-row {
+    margin-top: 10px;
+  }
+
+  .mobile-select {
+    width: 50px;
+    margin-left: 0;
+    padding: 20px !important;
+  }
+
+  .footer-mobile {
+      padding-left:160px !important;
+  }
 }
 
 
@@ -900,7 +926,17 @@ promoVideo .modal-dialog {
 
 
   .footer-mobile {
-      padding-left:140px !important;
+      padding-left:135px !important;
+  }
+
+  .mobile-row {
+    margin-top: 10px;
+  }
+  .mobile-select {
+    width: 50px;
+    height: 40px !important;
+    padding: 10px 10px 20px 10px !important;
+    font-size: 15px;
   }
 
   .modal-cont iframe {
@@ -925,6 +961,15 @@ promoVideo .modal-dialog {
   }
 
 } /*} smaller screens*/
+
+
+@media(max-width: 380px) {
+
+  .mobile-row {
+    margin-top: 10px;
+  }
+
+}
 
 
 /* Modal overrides */
