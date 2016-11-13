@@ -336,14 +336,14 @@ nav.navbar .navbar-nav {
 #about-content .about-content-left{
   width:100% !important;
   padding-top:5px;
-  padding-right:10% !important;
+  padding-right:10%;
   margin-bottom: 10%;
 }
 
 #about-content .about-content-right{
   width:100% !important;
   padding-top:5px;
-  padding-left:10% !important;
+  padding-left:10%;
   margin-bottom: 10%;
 }
 
@@ -387,14 +387,14 @@ nav.navbar .navbar-nav {
 #press-content .press-content-left{
   width:100% !important;
   padding-top:5px;
-  padding-right:10% !important;
+  padding-right:10%;
   margin-bottom: 10%;
 }
 
 #press-content .press-content-right{
   width:100% !important;
   padding-top:5px;
-  /*padding-left:10% !important;*/
+  padding-left:10%;
   margin-bottom: 10%;
 }
 
@@ -432,7 +432,7 @@ nav.navbar .navbar-nav {
 #media-content .media-content-left{
   width:100% !important;
   padding-top:5px;
-  padding-right:10% !important;
+  padding-right:10%;
   margin-bottom: 10%;
 }
 
