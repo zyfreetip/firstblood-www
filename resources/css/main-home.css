@@ -908,6 +908,10 @@ promoVideo .modal-dialog {
   .footer-mobile {
       padding-left:160px !important;
   }
+
+  #FM-logo {
+    margin-top: 10px;
+  }
 }
 
 
@@ -968,6 +972,8 @@ promoVideo .modal-dialog {
   .mobile-row {
     margin-top: 10px;
   }
+
+
 
 }
 
