@@ -4,7 +4,7 @@
 Repository responsible for FirstBlood.io new home page, newly designed UI integrates with  <br>demo screenshots,blog &amp; forum articles and alpha signup collector. 
 
 # Resources Used
-`Bootstrap v3.3.7 (http://getbootstrap.com)`<br>
+`Bootstrap v3.3.7` [(http://getbootstrap.com)]("http://getbootstrap.com")<br>
 `Node.js & npm`<br>
 `http-server package`
 
@@ -18,7 +18,7 @@ The version should be higher than `v0.10.32`.
 ##Updating npm
 
 Node comes with npm installed so you should have a version of npm. <br>However, npm gets updated more frequently than Node does, so you'll want to make sure it's the latest version.<br>
-`npm install npm@latest -g`
+`$ npm install npm@latest -g`
 
 # Install & Test Locally
 `$ git clone https://github.com/Firstbloodio/firstblood-www.git`<br><br>
