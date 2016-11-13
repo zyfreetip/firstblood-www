@@ -1,7 +1,7 @@
 <img src='/resources/img/main/logo_shield_b.jpg' width = '22.5%'>
 
 # FirstBlood.io Home Page
-Repository responsible for FirstBlood.io new home page, newly designed UI integrates with demo screenshots, <br>blog &amp; forum articles and alpha signup collector. 
+Repository responsible for FirstBlood.io new home page, newly designed UI integrates with  <br>demo screenshots,blog &amp; forum articles and alpha signup collector. 
 
 # Resources Used
 `Bootstrap v3.3.7 (http://getbootstrap.com)`<br>
