@@ -74,7 +74,7 @@ header {
     display: block;
     color: white;
     background: linear-gradient(
-      rgba(0, 0, 255, 0.05),
+      rgba(0, 0, 150, 0.05),
       rgba(0, 0, 0, 0.99)
     ),
     url('../img/main/header.jpg');
