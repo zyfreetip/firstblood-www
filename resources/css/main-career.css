@@ -546,6 +546,11 @@ footer .mailto:hover {
 
 @media(max-width: 768px) {
 
+  .navbar-brand img {
+    width:100px !important;
+    max-width:100px;
+  }
+
   .mobile-select {
     width: 90px;
     height: 40px !important;
@@ -565,6 +570,12 @@ footer .mailto:hover {
 
 @media(max-width: 594px) {
 
+  .navbar-brand img {
+    width:100px !important;
+    max-width:100px;
+  }
+
+
   .mobile-select {
     width: 50px;
     margin-left: 0;
@@ -582,6 +593,11 @@ footer .mailto:hover {
 }
 
 @media(max-width: 380px) {
+
+  .navbar-brand img {
+    width:100px !important;
+    max-width:100px;
+  }
 
   .mobile-media {
     padding-left: 20px !important;
