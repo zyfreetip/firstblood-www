@@ -365,9 +365,9 @@ nav.navbar .navbar-nav {
 
 
 #about-content .team-photo {
-  height:75px;
-  width:75px;
-  max-width:75px;
+  height:80px;
+  width:80px;
+  max-width:80px;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
   box-shadow: 1px 2px 3px #666C6F;
@@ -377,8 +377,6 @@ nav.navbar .navbar-nav {
 #about-content .team-photo:hover {
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
-  height:75px;
-  width:75px;
 }
 
 
