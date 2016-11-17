@@ -255,14 +255,20 @@ nav.navbar .navbar-nav {
 
 /*Career-Content Section ( Career-Content )*/
 
+
+#career-content {
+  font-family: 'Raleway', sans-serif !important;
+}
 #career-content .career-content-block{
   width:100% !important;
   padding-top:50px;
-  padding-right:30% !important;
-  padding-left:30% !important;
-  /*text-align: center;*/
-  /*border-right: 1px dashed #CECECE;*/
-  /*border-radius: 50px;*/
+  /*width: 492px;*/
+  /*height: 85px;*/
+  /*font-family: .AppleSystemUIFont;*/
+  font-size: 14px;
+  text-align: center;
+  line-height: 17px;
+  color: #2A3237;
 }
 
 #career-content .career-content-left{
@@ -279,21 +285,36 @@ nav.navbar .navbar-nav {
   margin-bottom: 10%;
 }
 
-#career-content .career-perk-block {
-  width:50%;
-  padding:15px;
+#career-content .career-perk-block-left {
+  /*width:50%;*/
+  padding:30px;
+  padding-left: 20%;
+  /*padding-right: 5%;*/
   /*display:inline;*/
 }
 
-#career-content .career-perk-block img{
-  width:20%;
+#career-content .career-perk-block-right {
+  /*width:50%;*/
+  padding:30px;
+  padding-right: 20%;
+  /*padding-right: 5%;*/
+  /*display:inline;*/
+}
+
+#career-content img{
+  width:50px !important;
+  height:50px !important;
+  /*background-color: #D8D8D8;
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px 1px darkgrey;*/
 }
 
 #career-content .career-perk-title {
-  text-transform: uppercase;
-  margin-bottom:10px;
-  font-weight: 700;
+  /*text-transform: uppercase;*/
+  /*margin-bottom:10px;*/
   width:100%;
+  font-size: 15px;
+  line-height: 17px;
 }
 
 #career-content .career-perk-content {
@@ -306,6 +327,7 @@ nav.navbar .navbar-nav {
   width:100% !important;
   padding-top:20px;
   padding-bottom:10px;
+  font-weight: bold !important;
   /*padding-left:10% !important;*/
   /*text-align: center;*/
 }
@@ -328,6 +350,13 @@ nav.navbar .navbar-nav {
 
 #career-content p, li{
   font-weight: 300 !important;
+}
+
+
+/*Job Content ( Job )*/
+
+#job-content .job-content-title {
+  font-size: 1.4em;
 }
 
 
