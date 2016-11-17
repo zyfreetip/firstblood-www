@@ -51,6 +51,15 @@ red {
   color: #C72728;
 }
 
+/*Text Helper Class ( Helper )*/
+
+bold {
+  font-weight: bold !important;
+}
+
+italic {
+  font-style: italic !important;
+}
 
 /*Position Helper Class ( Helper )*/
 
@@ -333,20 +342,15 @@ nav.navbar .navbar-nav {
 }
 
 #career-content .job-title {
-  font-size: 1.2em;
+  font-size: 1.3em;
+  font-weight: bold !important;
 }
 
 #career-content .job-title-sub {
-  font-size: 0.9em;
-  color:darkgrey
+  font-size: 1.1em;
+  font-weight: 400 !important;
 }
 
-
-#career-content .job-title:hover {
-  /*border-bottom:none !important;*/
-  cursor: pointer;
-  color:#ff9900;
-}
 
 #career-content p, li{
   font-weight: 300 !important;
@@ -355,10 +359,52 @@ nav.navbar .navbar-nav {
 
 /*Job Content ( Job )*/
 
-#job-content .job-content-title {
-  font-size: 1.4em;
+#job-content {
+  width: 100%;
+  padding-top:25px;
 }
 
+#job-content .back-to-career {
+  width: 250px;
+  /*height: 30px;*/
+  font-size: 16px;
+  padding-top:20px;
+  padding-bottom:20px;
+  color: #2A7ABC;
+  width: 770px;
+  border-bottom: 1px solid #979797;
+}
+
+#job-content .job-content-title {
+  padding-top: 35px;
+  font-size: 29px;
+  font-weight:400;
+}
+
+#job-content .job-content-subtitle {
+  margin-top: -12px;
+  font-size: 15px;
+}
+
+#job-content .job-content-block {
+  padding-top: 20px;
+  /*font-size: 15px;*/
+  padding-right:10%;
+}
+
+#job-content .job-content-email {
+  padding:60px 0px 40px 0px;
+  text-align: center;
+  font-size: 18px;
+  /*line-height: 18px;*/
+  color: #2A3237;
+}
+
+#job-content .job-content-email-subtext {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
 
 /*About Content ( About )*/
 
