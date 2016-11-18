@@ -6,7 +6,8 @@ Repository responsible for FirstBlood.io new home page, newly designed UI integr
 # Resources Used
 `Bootstrap v3.3.7` [(http://getbootstrap.com)]("http://getbootstrap.com")<br>
 `Node.js & npm`<br>
-`http-server package`
+`http-server package`<br>
+`font-awesome`
 
 ##Installing Node.js (if you don't have it)
 
