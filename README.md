@@ -32,7 +32,7 @@ First, install this light-weight http server node
     
 -OR install globally, if required*
 
-    $ sudo npm install http-server
+    $ sudo npm install -g http-server
     
 Access the directory that you cloned this git in
 
