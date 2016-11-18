@@ -126,7 +126,7 @@ var dict = {
 
    "BUILDING_PLATFORM":{
       "en":"Build a decentralized eSports reward <br />platform that every gamer loves",
-      "cn":"打造一个完全中心化的 <br />电竞玩家喜爱的电竞平台"
+      "cn":"打造一个完全去中心化的 <br />电竞玩家喜爱的电竞平台"
    },
 
    "NEWS":{
