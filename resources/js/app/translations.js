@@ -129,12 +129,17 @@ var dict = {
       "cn":"打造一个完全去中心化的 <br />电竞玩家喜爱的电竞平台"
    },
 
+   "FB_BOSTONMAJOR": {
+     "en":"FirstBlood Team is attending<br />Dota2 @ BostonMajor",
+     "cn":"第一滴血电竞团队参加 <br />dota2波士顿Major巡回赛"
+   },
+
    "NEWS":{
       "en":"News & Updates",
       "cn":"新闻 & 更新"
    },
 
-   "BUILT_ETHEREUM":{
+   "BUILT_gamer-EUM":{
       "en":"FirstBlood, the eSports Rewards <br/>Platform Built on Ethereum",
       "cn":"FirstBlood, 建立与以太坊上的 <br/>电竞赏金平台"
    },
@@ -142,6 +147,11 @@ var dict = {
    "BUILT_ETHEREUM_1":{
       "en":"FirstBlood, the eSports Rewards Platform Built on Ethereum, Gets Down to Business with White Paper Release",
       "cn":"FirstBlood, the eSports Rewards Platform Built on Ethereum, Gets Down to Business with White Paper Release"
+   },
+
+   "FB_BOSTONMAJOR_1": {
+     "en":"Blown away by the crowd at the #BostonMajor over the past two days!<br/> Love the #Dota2 community.",
+     "cn":"过去两天里，dota2波士顿Major巡回赛的观众太给力了。我们非常喜欢Dota2的社区！"
    },
 
    "FB_PRESENT":{
