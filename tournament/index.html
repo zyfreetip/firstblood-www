@@ -42,25 +42,37 @@
           <div class = "ss-signup">
             <div class = "col-md-4 left">
               <img src = "../resources/img/main/logo_shield.png" height="auto">
+              <!-- <p style = "text-align:left"><a href = "https://community.firstblood.io/t/29-jan-2017-socialsunday3-dota-2-tournament/">What are the Rules?</a> <br> <a href = "https://fb.io">What's FirstBlood?</a></p> -->
             </div>
             <div class = "col-md-8 right">
-              <div class = "title">#Social Sunday</div>
+              <div class = "title">#SocialSunday</div>
               <p> Getting ready for our <span class = "text-bright">Social Sunday</span> Tournament?</p>
-              <div class="form-group" style = "margin-top:30px;">
-                <label for="usr">Your email address?</label>
-                <input type="text" class="form-control" id="usr">
-              </div>
-              <div class="form-group">
-                <label for="pwd">Your Dota2 Account Name</label>
-                <input type="password" class="form-control" id="pwd">
-              </div>
-              <div class="form-group">
-                <label>When were you born?</label>
-                <input type="date" class="form-control" id="exampleInputDOB1" placeholder="Date of Birth">
-              </div>
-              <div class="button-section">
-                <button class = "btn ss-register">Sign me up!</button>
-              </div>
+              <form id="input-form" action="" method="POST" target="no-target">
+                <div class="form-group" style = "margin-top:30px;">
+                  <label>Your email address?</label>
+                  <input type="text" class="form-control" id="input-q1">
+                </div>
+                <div class="form-group">
+                  <label>Your Discord Username</label>
+                  <input type="text" class="form-control" id="input-q2">
+                </div>
+                <div class="form-group">
+                  <label>Your Steam Profile URL</label>
+                  <input type="text" class="form-control" id="input-q3">
+                </div>
+                <div class="form-group">
+                  <label>Your Dota2 MMR</label>
+                  <input type="text" class="form-control" id="input-q4">
+                </div>
+                <div class="form-group">
+                  <label>When were you born?</label>
+                  <input type="date" class="form-control" id="input-q6" placeholder="Date of Birth">
+                </div>
+                <div class="button-section">
+                  <a id="form-submit" type="submit" class = "btn ss-register" >Sign me up!</a>
+                  <p id="input-feedback"></p>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -83,6 +95,42 @@
         $(document).ready(function() {
             $('[data-toggle="tooltip"]').tooltip();
         });
+
+        $('#form-submit').click(function(){
+           var inputq4 = encodeURIComponent($('#input-q6').val());
+           var bday = new Date(inputq4);
+           var bday = bday - 1;
+           var today = new Date();
+           var today = today - 1;
+          //  var diff = bday.getDate() - today.getDate();
+           var timeDiff = Math.abs(today - bday);
+           var diffYears = Math.ceil(timeDiff / (1000 * 3600 * 24 * 365));
+           if (diffYears >= 18) {
+             window.location.href='https://discord.gg/yVP3fJe';
+           } else {
+             window.alert("Sorry, it's not you; it's us -- we created Social Sunday for 18 plus only.")
+           }
+        })
+
+        $('#input-form').one('submit',function(){
+           var inputq1 = encodeURIComponent($('#input-q1').val());
+           var inputq2 = encodeURIComponent($('#input-q2').val());
+           var inputq3 = encodeURIComponent($('#input-q3').val());
+           var inputq4 = encodeURIComponent($('#input-q4').val());
+
+           var q1ID = "entry.2035449517";
+           var q2ID = "entry.6024304";
+           var q3ID = "entry.659796853";
+           var q4ID = "entry.1218999252";
+
+
+           var baseURL = 'https://docs.google.com/a/firstblood.io/forms/d/e/1FAIpQLSfLZ8H6eB-C4hH7HbZjYsoMddX7h4pWQhFMYMBeUC1jY9ob0Q/formResponse?';
+           var submitRef = '&submit=Submit';
+           var submitURL = (baseURL + q1ID + "=" + inputq1 + "&" + q2ID + "=" + inputq2 + "&" + q3ID + "=" + inputq3 + "&" + q4ID + "=" + inputq4 + submitRef);
+           console.log(submitURL);
+           $(this)[0].action=submitURL;
+           $('#input-feedback').text('Thank You! We will see you in our Discord Channel');
+       });
     </script>
     <!-- jQuery translate -->
     <script src="/resources/js/jquery.translate.js"></script>
