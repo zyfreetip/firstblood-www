@@ -2,27 +2,44 @@
 
 body {
   width:100%;
-  height:100%;
-  background: url("../img/tournaments/bg1.jpg") !important;
+  min-height:100vh;
+  height:auto;
+  background: linear-gradient(rgba(0, 0, 255, 0.05), rgba(0, 0, 0, 0.50)
+  ), url("../img/tournaments/bg2.jpg") !important;
+  background-size: cover;
 }
 
-.content {
-  background-color: rgba(7,7,7,0.50);
-  width:100%;
-  height:800px;
-  display: block;
-  margin-top:50px;
-  padding:20px 20px 20px 20px;
-  font-size: 30px;
-  color:#ffffff;
-}
-
-.title {
+.elem-centered {
   text-align: center;
 }
-.title .text{
+
+.ss-signup {
+  margin-top:20%;
+  width:628px;
+  height:353px;
+  display: inline-block;
+  /*border-radius: 5px;*/
+  box-shadow: 2px 3px 3px #070707;
+}
+
+.ss-signup .left {
+  padding:20px;
+  height:353px;
+  background: rgba(7, 7, 7, 0.9);
+  /*display: block;*/
+}
+.ss-signup .left img {
+  margin-top: 25px;
+  width:135px;
+}
+.ss-signup .right {
+  padding:20px;
+  height:353px;
+  background: rgba(40,43,48,.75);
+  /*background: rgba(150,150,150,1);*/
+}
+.ss-signup .right .title {
+  /*width:250px;*/
   font-size:30px;
-  color: #ff9900;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 1px #000;
+  color:#fff;
 }
