@@ -91,10 +91,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="/resources/js/bootstrap.min.js"></script>
+    <!-- Google form ajax -->
+    <script src="/resources/js/jquery.jqgoogleforms.min.js"></script>
+    <!-- jQuery translate -->
     <script>
         $(document).ready(function() {
             $('[data-toggle="tooltip"]').tooltip();
         });
+
+        var googleForm = $(window).jqGoogleForms({"formKey": "1nmnZj5j4ZlhGeTW9uiRVAOgymAwsqO0DsgcY1fiDnio"});
+
 
         $('#form-submit').click(function(){
            var inputq4 = encodeURIComponent($('#input-q6').val());
@@ -106,33 +112,43 @@
            var timeDiff = Math.abs(today - bday);
            var diffYears = Math.ceil(timeDiff / (1000 * 3600 * 24 * 365));
            if (diffYears >= 18) {
-             window.location.href='https://discord.gg/yVP3fJe';
+            //  window.location.href='https://discord.gg/yVP3fJe';
+            var inputq1 = encodeURIComponent($('#input-q1').val());
+            var inputq2 = encodeURIComponent($('#input-q2').val());
+            var inputq3 = encodeURIComponent($('#input-q3').val());
+            var inputq4 = encodeURIComponent($('#input-q4').val());
+
+            var q1ID = "entry.2035449517";
+            var q2ID = "entry.6024304";
+            var q3ID = "entry.659796853";
+            var q4ID = "entry.1218999252";
+
+            googleForm.sendFormData({
+               q1ID: inputq1,
+               q2ID: inputq2,
+               q3ID: inputq3,
+               q4ID: inputq4
+             });
+
+             console.log("submitted");
            } else {
              window.alert("Sorry, it's not you; it's us -- we created Social Sunday for 18 plus only.")
            }
         })
-
-        $('#input-form').one('submit',function(){
-           var inputq1 = encodeURIComponent($('#input-q1').val());
-           var inputq2 = encodeURIComponent($('#input-q2').val());
-           var inputq3 = encodeURIComponent($('#input-q3').val());
-           var inputq4 = encodeURIComponent($('#input-q4').val());
-
-           var q1ID = "entry.2035449517";
-           var q2ID = "entry.6024304";
-           var q3ID = "entry.659796853";
-           var q4ID = "entry.1218999252";
-
-
-           var baseURL = 'https://docs.google.com/a/firstblood.io/forms/d/e/1FAIpQLSfLZ8H6eB-C4hH7HbZjYsoMddX7h4pWQhFMYMBeUC1jY9ob0Q/formResponse?';
-           var submitRef = '&submit=Submit';
-           var submitURL = (baseURL + q1ID + "=" + inputq1 + "&" + q2ID + "=" + inputq2 + "&" + q3ID + "=" + inputq3 + "&" + q4ID + "=" + inputq4 + submitRef);
-           console.log(submitURL);
-           $(this)[0].action=submitURL;
-           $('#input-feedback').text('Thank You! We will see you in our Discord Channel');
-       });
+       //
+      //   $('#input-form').one('submit',function(){
+       //
+       //
+      //     //  var baseURL = 'https://docs.google.com/a/firstblood.io/forms/d/e/1FAIpQLSfLZ8H6eB-C4hH7HbZjYsoMddX7h4pWQhFMYMBeUC1jY9ob0Q/formResponse?';
+      //     //  var submitRef = '&submit=Submit';
+      //     //  var submitURL = (baseURL + q1ID + "=" + inputq1 + "&" + q2ID + "=" + inputq2 + "&" + q3ID + "=" + inputq3 + "&" + q4ID + "=" + inputq4 + submitRef);
+      //     //  console.log(submitURL);
+      //     //  $(this)[0].action=submitURL;
+      //     //  $('#input-feedback').text('Thank You! We will see you in our Discord Channel');
+      //  });
     </script>
-    <!-- jQuery translate -->
+
+
     <script src="/resources/js/jquery.translate.js"></script>
     <!-- Translations -->
     <script src="/resources/js/app/translations.js"></script>
