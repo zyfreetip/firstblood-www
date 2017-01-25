@@ -11,20 +11,20 @@
         <meta name="keywords" content="Tournaments, FirstBlood, Esports, First Blood, cryptocurrency, ethereum, ether, rewards, competition, Dota2, League of Legends, Play Esports, Call of Duty, FIFA, Hearthstone" />
 
         <!-- FirstBlood Favicon -->
-        <link rel="apple-touch-icon" sizes="57x57" href="../resources/img/favicons/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="../resources/img/favicons/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="../resources/img/favicons/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="../resources/img/favicons/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="../resources/img/favicons/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="../resources/img/favicons/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="../resources/img/favicons/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="../resources/img/favicons/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="../resources/img/favicons/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192" href="../resources/img/favicons/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="../resources/img/favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="../resources/img/favicons/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="../resources/img/favicons/favicon-16x16.png">
-        <link rel="manifest" href="../resources/img/favicons/manifest.json">
+        <link rel="apple-touch-icon" sizes="57x57" href="/resources/img/favicons/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/resources/img/favicons/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/resources/img/favicons/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/resources/img/favicons/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/resources/img/favicons/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/resources/img/favicons/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/resources/img/favicons/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/resources/img/favicons/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/resources/img/favicons/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/resources/img/favicons/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/resources/img/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/resources/img/favicons/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/resources/img/favicons/favicon-16x16.png">
+        <link rel="manifest" href="/resources/img/favicons/manifest.json">
 
         <!-- Bootstrap css -->
         <link href="/resources/css/bootstrap/bootstrap.min.css" rel="stylesheet">
@@ -41,7 +41,7 @@
         <div class = "row elem-centered">
           <div class = "ss-signup">
             <div class = "col-md-4 left">
-              <img src = "../resources/img/main/logo_shield.png" height="auto">
+              <img src = "/resources/img/main/logo_shield.png" height="auto">
               <!-- <p style = "text-align:left"><a href = "https://community.firstblood.io/t/29-jan-2017-socialsunday3-dota-2-tournament/">What are the Rules?</a> <br> <a href = "https://fb.io">What's FirstBlood?</a></p> -->
             </div>
             <div class = "col-md-8 right">
@@ -92,27 +92,65 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="/resources/js/bootstrap.min.js"></script>
     <!-- Google form ajax -->
-    <script src="/resources/js/jquery.jqgoogleforms.min.js"></script>
+    <!-- <script src="/resources/js/jquery.jqgoogleforms.min.js"></script> -->
     <!-- jQuery translate -->
     <script>
         $(document).ready(function() {
             $('[data-toggle="tooltip"]').tooltip();
         });
 
-        var googleForm = $(window).jqGoogleForms({"formKey": "1nmnZj5j4ZlhGeTW9uiRVAOgymAwsqO0DsgcY1fiDnio"});
+        // var googleForm = $(window).jqGoogleForms({"formKey": "1nmnZj5j4ZlhGeTW9uiRVAOgymAwsqO0DsgcY1fiDnio"});
 
 
-        $('#form-submit').click(function(){
-           var inputq4 = encodeURIComponent($('#input-q6').val());
-           var bday = new Date(inputq4);
-           var bday = bday - 1;
-           var today = new Date();
-           var today = today - 1;
-          //  var diff = bday.getDate() - today.getDate();
-           var timeDiff = Math.abs(today - bday);
-           var diffYears = Math.ceil(timeDiff / (1000 * 3600 * 24 * 365));
-           if (diffYears >= 18) {
-            //  window.location.href='https://discord.gg/yVP3fJe';
+        // $('#form-submit').click(function(){
+        //    var inputq4 = encodeURIComponent($('#input-q6').val());
+        //    var bday = new Date(inputq4);
+        //    var bday = bday - 1;
+        //    var today = new Date();
+        //    var today = today - 1;
+        //   //  var diff = bday.getDate() - today.getDate();
+        //    var timeDiff = Math.abs(today - bday);
+        //    var diffYears = Math.ceil(timeDiff / (1000 * 3600 * 24 * 365));
+        //    if (diffYears >= 18) {
+        //     //  window.location.href='https://discord.gg/yVP3fJe';
+        //     var inputq1 = encodeURIComponent($('#input-q1').val());
+        //     var inputq2 = encodeURIComponent($('#input-q2').val());
+        //     var inputq3 = encodeURIComponent($('#input-q3').val());
+        //     var inputq4 = encodeURIComponent($('#input-q4').val());
+        //
+        //     var q1ID = "entry.2035449517";
+        //     var q2ID = "entry.6024304";
+        //     var q3ID = "entry.659796853";
+        //     var q4ID = "entry.1218999252";
+        //
+        //     googleForm.sendFormData({
+        //        q1ID: inputq1,
+        //        q2ID: inputq2,
+        //        q3ID: inputq3,
+        //        q4ID: inputq4
+        //      });
+        //
+        //      console.log("submitted");
+        //    } else {
+        //      window.alert("Sorry, it's not you; it's us -- we created Social Sunday for 18 plus only.")
+        //    }
+        // })
+       //
+       $('#form-submit').click(function(){
+          var inputq6 = encodeURIComponent($('#input-q6').val());
+          var bday = new Date(inputq6);
+          var bday = bday - 1;
+          var today = new Date();
+          var today = today - 1;
+          var timeDiff = Math.abs(today - bday);
+          var diffYears = Math.ceil(timeDiff / (1000 * 3600 * 24 * 365));
+          console.log(diffYears)
+          if (diffYears < 18) {
+
+            $('#input-feedback').text('You must be at least 18 years of age to participate.');
+
+          } else {
+
             var inputq1 = encodeURIComponent($('#input-q1').val());
             var inputq2 = encodeURIComponent($('#input-q2').val());
             var inputq3 = encodeURIComponent($('#input-q3').val());
@@ -123,29 +161,34 @@
             var q3ID = "entry.659796853";
             var q4ID = "entry.1218999252";
 
-            googleForm.sendFormData({
-               q1ID: inputq1,
-               q2ID: inputq2,
-               q3ID: inputq3,
-               q4ID: inputq4
-             });
+            var inputs = [
+              [q1ID, inputq1],
+              [q2ID, inputq2],
+              [q3ID, inputq3],
+              [q4ID, inputq4],
+            ]
 
-             console.log("submitted");
-           } else {
-             window.alert("Sorry, it's not you; it's us -- we created Social Sunday for 18 plus only.")
-           }
-        })
-       //
-      //   $('#input-form').one('submit',function(){
-       //
-       //
-      //     //  var baseURL = 'https://docs.google.com/a/firstblood.io/forms/d/e/1FAIpQLSfLZ8H6eB-C4hH7HbZjYsoMddX7h4pWQhFMYMBeUC1jY9ob0Q/formResponse?';
-      //     //  var submitRef = '&submit=Submit';
-      //     //  var submitURL = (baseURL + q1ID + "=" + inputq1 + "&" + q2ID + "=" + inputq2 + "&" + q3ID + "=" + inputq3 + "&" + q4ID + "=" + inputq4 + submitRef);
-      //     //  console.log(submitURL);
-      //     //  $(this)[0].action=submitURL;
-      //     //  $('#input-feedback').text('Thank You! We will see you in our Discord Channel');
-      //  });
+            var baseURL = 'https://docs.google.com/a/firstblood.io/forms/d/e/1FAIpQLSfLZ8H6eB-C4hH7HbZjYsoMddX7h4pWQhFMYMBeUC1jY9ob0Q/formResponse?';
+            var submitURL = baseURL;
+            inputs.forEach(input => {
+              submitURL += input[0]+'='+input[1]+'&'
+            })
+            submitURL += 'submit=Submit';
+
+            $.get( submitURL,
+              function( data ) {
+                console.log(data)
+              }
+            )
+            .done(function() {
+            })
+            .fail(function() {
+            })
+            .always(function() {
+              $('#input-feedback').text('Thank You! We will see you in our Discord Channel.');
+            });
+          }
+       });
     </script>
 
 
