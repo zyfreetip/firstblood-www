@@ -20,7 +20,7 @@ body {
 .ss-signup {
   margin-top:17.5%;
   width:628px;
-  height:570px;
+  height:600px;
   display: inline-block;
   /*border-radius: 5px;*/
   box-shadow: 2px 3px 3px #070707;
@@ -78,13 +78,22 @@ body {
 }
 .ss-register {
   width:100%;
-  background: #ff9900;
-  color:#fff;
-  font-size:18px;
-  padding: 15px 30px 15px 30px;
+  border-radius: 3px;
+  background-image: linear-gradient(to top, #c62728, #ffa11f), linear-gradient(#dd8315, #dd8315);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  font-size: 25px;
+  font-weight: bold;
+  padding: 15px 20px 15px 20px;
   text-transform: uppercase;
 }
 .ss-register:hover {
   background: #ffa319;
   color:#fff;
+}
+#input-feedback {
+  margin-top:5px;
+  font-size: 14px;
+  color:#e6155f;
 }
