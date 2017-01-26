@@ -96,7 +96,7 @@ body {
   border:1px solid rgba(255,255,255,0.3);
   border-radius: 3px;
   color:#fff;
-  padding:9px 5px 9px 5px;
+  padding:9px 8px 9px 8px;
   font-size: 12px;
   /*text-transform: uppercase;*/
 }
@@ -126,4 +126,14 @@ a:hover {
 a:visited {
   color:#fff;
   text-decoration:none;
+}
+
+@media(max-width: 650px) {
+  .ss-signup .left img {
+    margin-top: 25px;
+    width:300px;
+  }
+  .ss-signup {
+    height:auto;
+  }
 }
