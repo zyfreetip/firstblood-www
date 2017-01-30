@@ -150,11 +150,11 @@
           var timeDiff = Math.abs(today - bday);
           var diffYears = Math.ceil(timeDiff / (1000 * 3600 * 24 * 365));
           console.log(diffYears)
-          if (diffYears < 18 && !!inputq1 && !!input2 && !!input3 && !!input4) {
+          if (diffYears < 18 && !!inputq1 && !!inputq2 && !!inputq3 && !!inputq4) {
 
             $('#input-feedback').text('You must be at least 18 years of age to participate.');
 
-          } else if (!inputq1 || !input2 || !input3 || !input4) {
+          } else if (!inputq1 || !inputq2 || !inputq3 || !inputq4) {
 
             $('#input-feedback').text('You must fill out all information before you can join!');
 
