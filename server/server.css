@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  /*background-color: #000000;*/
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(255, 255, 255, .09);
+  background: url('./img/bg1.jpg');
+  display: block;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.error-picture {
+  width: 1080px;
+  height: 525px;
+  z-index:2;
+}
+.error-picture img {
+  margin-bottom: -190px;
+}
+.error-container {
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #242425;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.7);
+  padding:79px 0px 0px 0px;
+  z-index: 1;
+}
+.title {
+  /*width: 200px;
+  height: 98px;*/
+  font-family: "Open Sans";
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 98px;
+  color: #F38600;
+}
+.sub-title {
+  /*width: 197px;
+  height: 52px;*/
+  font-family: "Open Sans";
+  font-size: 38px;
+  text-align: center;
+  /*line-height: 52px;*/
+  color: #F38600;
+  margin-bottom: 39px;
+}
+
+.text {
+  font-family: "Open Sans";
+  font-size: 24px;
+  text-align: center;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-bottom: 62px;
+}
+
+.sub-text {
+  font-family: "Open Sans";
+  font-size: 18px;
+  text-align: center;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+a {
+  color: #F38600;
+  text-decoration: underline;
+}
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
