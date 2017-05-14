@@ -129,9 +129,9 @@ var dict = {
       "cn":"打造一个完全去中心化的 <br />电竞玩家喜爱的电竞平台"
    },
 
-   "FB_BOSTONMAJOR": {
-     "en":"FirstBlood Team is attending<br />Dota2 @ BostonMajor",
-     "cn":"第一滴血电竞团队参加 <br />dota2波士顿Major巡回赛"
+   "FB_ALPHA": {
+     "en":"FirstBlood Alpha Open<br />for Presale Participants",
+     "cn":"FirstBlood Alpha Open<br />for Presale Participants"
    },
 
    "NEWS":{
@@ -149,29 +149,29 @@ var dict = {
       "cn":"FirstBlood, the eSports Rewards Platform Built on Ethereum, Gets Down to Business with White Paper Release"
    },
 
-   "FB_BOSTONMAJOR_1": {
-     "en":"Blown away by the crowd at the #BostonMajor over the past two days!<br/> Love the #Dota2 community.",
-     "cn":"过去两天里，dota2波士顿Major巡回赛的观众太给力了。我们非常喜欢Dota2的社区！"
+   "FB_ALPHA_1": {
+     "en":"The alpha version of our platform is now open to all pre-sale particiapnts.<br/> Let the #bughunt begin.",
+     "cn":"The alpha version of our platform is now open to all pre-sale particiapnts.<br/> Let the #bughunt begin."
    },
 
-   "FB_PRESENT":{
-      "en":"FirstBlood presented its plan <br />to bring blockchain to gaming",
-      "cn":"FirstBlood 展示了公司的将 <br />区块链于电子竞技结合的企划。"
+   "FB_ESIC":{
+      "en":"FirstBlood has joined<br />the esports integrity coalition",
+      "cn":"FirstBlood has joined<br />the esports integrity coalition"
    },
 
-   "FB_PRESENT_1":{
-      "en":"FirstBlood Presented Its Plan to Bring Blockchain Technology to eSports at HongKong Ethereum Meetup",
-      "cn":"FirstBlood Presented Its Plan to Bring Blockchain Technology to eSports at HongKong Ethereum Meetup"
+   "FB_ESIC_1":{
+      "en":"We are proud to announce that we have joined the Esports Integrity Coalialition.",
+      "cn":"We are proud to announce that we have joined the Esports Integrity Coalialition."
    },
 
-   "AMA":{
-      "en":"FirstBlood to Host its 1st Community AMA on 11/09/2016",
+   "GIVEAWAY":{
+      "en":"FirstBlood #Buggernaut Bladeform Legacy Giveaway",
       "cn":"FirstBlood于11/09/2016，进行了第一次［AMA]“问我什么都可以” 有问必答活动"
    },
 
-   "AMA_1":{
-      "en":"We've been a little quiet since the presale, lots of internal business to take care of, but we've been paying really close attention and ...",
-      "cn":"We've been a little quiet since the presale, lots of internal business to take care of, but we've been paying really close attention and ..."
+   "GIVEAWAY_1":{
+      "en":"To celebrate the alpha release, we're giving away the new Exalted Bladeform Legacy Juggernaut Arcana to three lucky winners.",
+      "cn":"To celebrate the alpha release, we're giving away the new Exalted Bladeform Legacy Juggernaut Arcana to three lucky winners."
    },
 
    "COMPANY":{
