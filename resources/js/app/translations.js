@@ -7,6 +7,10 @@ var dict = {
       "en":"Home",
       "cn":"主页"
    },
+   "SHOP":{
+      "en":"Shop",
+      "cn":"商店"
+   },
    "CROWDSALE":{
       "en":"Crowdsale",
       "cn":"众筹"
